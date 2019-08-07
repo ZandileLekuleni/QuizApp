@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-toolbar color="tertiary">
+        <ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+        <ion-title>Music Results</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-image">
+    <ion-card>
+        <h2>Score:{{score}}0/50&nbsp;Points</h2>
+        <h2>Your Answers:</h2>
+        {{r}}<br> {{r1}}
+        <br> {{r2}}
+        <br> {{r3}}
+        <br> {{r4}}
+        <br>
+    </ion-card>
+    <div class="button">
+        <ion-button color="tertiary" [routerLink]="['/sportc']">NEXT</ion-button>
+        <ion-button color="tertiary" [routerLink]="['/musicc']">START AGAIN?</ion-button>
+        <ion-button color="tertiary" (click)="show()" [disabled]="disabled">SHOW TOTAL</ion-button>
+    </div>
+
+</ion-content>

@@ -1,0 +1,121 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+        <ion-title>ANSWER THE QUESTIONS</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-image">
+    <ion-card>
+        <ul>
+            <div class="food">
+
+                <div class="questions">
+                    <h5> Who won the first ever FA Premier League?</h5>
+
+                    <div class="radio1">
+                        <label><input type="radio" id="option0"name="option0" [(ngModel)]= "theradio" value = "Manchester City">Manchester City </label>
+
+                    </div>
+
+                    <div class="radio1">
+                        <label><input type="radio" id="option0"name="option0" [(ngModel)]= "theradio" value = "Arsenal">Arsenal</label>
+                    </div>
+                    <div class="radio1">
+                        <label><input type="radio" id="option0"name="option0" [(ngModel)]= "theradio" value = "Manchester United">Manchester United</label>
+                    </div>
+                    <div class="radio1">
+                        <label><input type="radio" id="option0"name="option0" [(ngModel)]= "theradio" value = "Liverpool">Liverpool</label>
+                    </div>
+
+                    
+                    <h5> Who won the 1994 FIFA World Cup? </h5>
+
+
+                    <div class="radio2">
+                        <label><input type="radio" id="option1"name="option1" [(ngModel)]= "theradio1" value = "Italy">Italy</label>
+
+
+                    </div>
+
+                    <div class="radio2">
+                        <label><input type="radio" id="option1"name="option1" [(ngModel)]= "theradio1" value = "Germany">Germany</label>
+                    </div>
+                    <div class="radio2">
+                        <label><input type="radio" id="option1"name="option1" [(ngModel)]= "theradio1" value = "France">France</label>
+                    </div>
+                    <div class="radio2">
+                        <label><input type="radio" id="option1"name="option1" [(ngModel)]= "theradio1" value = "Brazil">Brazil</label>
+                    </div>
+                   
+
+                    <h5>Which of these star soccer players has never played for Real Madrid? </h5>
+
+
+                    <div class="radio3">
+                        <label><input type="radio" id="option2"name="option2" [(ngModel)]= "theradio2" value = "David Beckham">David Beckham</label>
+                    </div>
+
+                    <div class="radio3">
+                        <label><input type="radio" id="option2"name="option2" [(ngModel)]= "theradio2" value = "Zinedine Zidane">Zinedine Zidane</label>
+
+                    </div>
+                    <div class="radio3">
+                        <label><input type="radio" id="option2"name="option2" [(ngModel)]= "theradio2" value = "Cristiano Ronaldo">Cristiano Ronaldo</label>
+                    </div>
+                    <div class="radio3">
+                        <label><input type="radio" id="option2"name="option2" [(ngModel)]= "theradio2" value = "Lionel Messi">Lionel Messi</label>
+                    </div>
+                    
+
+                    <h5>According to the official FIFA rulebook, how long can a goalkeeper hold onto the ball for?</h5>
+
+
+                    <div class="radio4">
+                        <label><input type="radio" id="option3"name="option3" [(ngModel)]= "theradio3" value = "3 Seconds">3 Seconds</label>
+
+                    </div>
+
+                    <div class="radio4">
+                        <label><input type="radio" id="option3"name="option3" [(ngModel)]= "theradio3" value = "5 Seconds">5 Seconds</label>
+                    </div>
+                    <div class="radio4">
+                        <label><input type="radio" id="option3"name="option3" [(ngModel)]= "theradio3" value = "30 Seconds">30 Seconds</label>
+                    </div>
+                    <div class="radio4">
+                        <label><input type="radio" id="option3"name="option3" [(ngModel)]= "theradio3" value = "10 Seconds">10 Seconds</label>
+                    </div>
+                    
+
+
+
+
+                    <h5>What are the home colors of the FC Barcelona soccer uniform?</h5>
+
+
+                    <div class="radio5">
+                        <label><input type="radio" id="option4"name="option4" [(ngModel)]= "theradio4" value = "Orange and White">Orange and White</label>
+
+                    </div>
+
+                    <div class="radio5">
+                        <label><input type="radio" id="option4"name="option4" [(ngModel)]= "theradio4" value = "Black and White">Black and White</label>
+                    </div>
+                    <div class="radio5">
+                        <label><input type="radio" id="option4"name="option4" [(ngModel)]= "theradio4" value = "Blue and Red">Blue and Red</label>
+                    </div>
+                    <div class="radio5">
+                        <label><input type="radio" id="option4"name="option4" [(ngModel)]= "theradio4" value = "Yellow and Blue">Yellow and Blue</label>
+                    </div>
+                
+                
+                
+
+                </div>
+            </div>
+        </ul>
+    </ion-card>
+    <div class="button">
+        <ion-button color="light" (click)="calc()" [routerLink]="['/foodr']">SUBMIT</ion-button>
+    </div>
+</ion-content>

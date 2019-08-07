@@ -1,0 +1,21 @@
+// div {
+//     background-image: url("q.jpg");
+//     background-size: cover;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     height: 450px;
+//     display: flex;
+// }
+.background-image {
+    --background: url("md.jpg") 0 0/100% 100% no-repeat;
+}
+
+ion-title {
+    text-align: center;
+}
+
+.button{
+   
+    text-align: center;
+    
+}

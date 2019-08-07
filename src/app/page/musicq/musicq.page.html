@@ -1,0 +1,110 @@
+<ion-header>
+    <ion-toolbar color="tertiary">
+        <ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+        <ion-title>LUXURY BRAND </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-image">
+    <ion-card>
+        <ul>
+            <div class="food">
+
+                <div class="questions">
+                    <h5>This Brand is the Most Valuable Luxury Brand According to Forbes</h5>
+
+                    <div class="radio1">
+                        <label><input type="radio" id="option0"name="option0" [(ngModel)]= "theradio" value = "Louis Vuitton"> Louis Vuitton</label>
+                    </div>
+
+                    <div class="radio1">
+                        <label><input type="radio" id="option0"name="option0" [(ngModel)]= "theradio" value = "Valentino Garavani"> Valentino Garavani</label>
+                    </div>
+                    <div class="radio1">
+                        <label><input type="radio" id="option0"name="option0" [(ngModel)]= "theradio" value = "Gucci"> Gucci</label>
+                    </div>
+                    <div class="radio1">
+                        <label><input type="radio" id="option0"name="option0" [(ngModel)]= "theradio" value = "Burberry"> Burberry</label>
+                    </div>
+
+
+
+
+
+                    <h5> This Italian Fashion Brand Uses Other Brands For Inspiration, Including Barbie, McDonalds, Windex, Coca Cola, Etc... </h5>
+
+                    <div class="radio2">
+                        <label><input type="radio" id="option1"name="option1" [(ngModel)]= "theradio1" value = "Moschino"> Moschino</label>
+                    </div>
+
+                    <div class="radio2">
+                        <label><input type="radio" id="option1"name="option1" [(ngModel)]= "theradio1" value = "Prada"> Prada</label>
+                    </div>
+                    <div class="radio2">
+                        <label><input type="radio" id="option1"name="option1" [(ngModel)]= "theradio1" value = "Chanel"> Chanel</label>
+                    </div>
+                    <div class="radio2">
+                        <label><input type="radio" id="option1"name="option1" [(ngModel)]= "theradio1" value = "Dolce and Gabbana"> Dolce and Gabbana</label>
+                    </div>
+
+
+
+                    <h5>Which shoe style did Coco Chanel NOT create? </h5>
+
+                    <div class="radio3">
+                        <label><input type="radio" id="option2"name="option2" [(ngModel)]= "theradio2" value = "Stilettos"> Stilettos</label>
+                    </div>
+
+                    <div class="radio3">
+                        <label><input type="radio" id="option2"name="option2" [(ngModel)]= "theradio2" value = "Wedges"> Wedges</label>
+                    </div>
+                    <div class="radio3">
+                        <label><input type="radio" id="option2"name="option2" [(ngModel)]= "theradio2" value = "Sneakers"> Sneakers</label>
+                    </div>
+                    <div class="radio3">
+                        <label><input type="radio" id="option2"name="option2" [(ngModel)]= "theradio2" value = "Slides"> Slides</label>
+                    </div>
+
+                    <h5>Who Collaborated with Adidas?</h5>
+
+                    <div class="radio4">
+                        <label><input type="radio" id="option3"name="option3" [(ngModel)]= "theradio3" value = "Jay Z"> Jay Z</label>
+                    </div>
+
+                    <div class="radio4">
+                        <label><input type="radio" id="option3"name="option3" [(ngModel)]= "theradio3" value = "Drake"> Drake</label>
+                    </div>
+                    <div class="radio4">
+                        <label><input type="radio" id="option3"name="option3" [(ngModel)]= "theradio3" value = "Chris Brown">  Chris Brown</label>
+                    </div>
+                    <div class="radio4">
+                        <label><input type="radio" id="option3"name="option3" [(ngModel)]= "theradio3" value = "Kanye West"> Kanye West</label>
+                    </div>
+
+
+
+                    <h5>When was Louis Vuitton Founded? </h5>
+
+                    <div class="radio5">
+                        <label><input type="radio" id="option4"name="option4" [(ngModel)]= "theradio4" value = "1854">1854</label>
+                    </div>
+
+                    <div class="radio5">
+                        <label><input type="radio" id="option4"name="option4" [(ngModel)]= "theradio4" value = "1920">1920</label>
+                    </div>
+                    <div class="radio5">
+                        <label><input type="radio" id="option4"name="option4" [(ngModel)]= "theradio4" value = "1820">1820</label>
+                    </div>
+                    <div class="radio5">
+                        <label><input type="radio" id="option4"name="option4" [(ngModel)]= "theradio4" value = "1954"> 1954</label>
+                    </div>
+
+                </div>
+            </div>
+
+        </ul>
+    </ion-card>
+    <div class="button">
+        <ion-button color="tertiary" (click)="calc()" [routerLink]="['/musicr']">SUBMIT</ion-button>
+    </div>
+</ion-content>

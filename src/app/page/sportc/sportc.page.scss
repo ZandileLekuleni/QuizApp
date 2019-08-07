@@ -1,0 +1,26 @@
+.button {
+    text-align: center;
+}
+
+.background-image {
+    --background: url("mb.jpg") 0 0/100% 100% no-repeat;
+    height: 700px;
+}
+
+h1 {
+    text-align: center;
+    color: greenyellow;
+}
+
+ion-card {
+    background-color: transparent;
+}
+
+p {
+    font-family: Courier, monospace;
+    color: white;
+}
+ion-title{
+    text-align: center;
+    color: black
+}
